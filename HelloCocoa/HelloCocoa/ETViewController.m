@@ -9,6 +9,8 @@
 #import "ETViewController.h"
 
 @implementation ETViewController
+@synthesize helloLabel;
+@synthesize helloBtn;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +28,8 @@
 
 - (void)viewDidUnload
 {
+    [self setHelloLabel:nil];
+    [self setHelloBtn:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -57,4 +61,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)sayHello:(id)sender {
+    helloLabel.text = @"Hello Cocoa";
+}
 @end

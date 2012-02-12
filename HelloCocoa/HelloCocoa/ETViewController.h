@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ETViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *helloLabel;
+@property (weak, nonatomic) IBOutlet UIButton *helloBtn;
+- (IBAction)sayHello:(id)sender;
 
 @end
