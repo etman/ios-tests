@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2268A88814E80C470093CD2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268A88714E80C470093CD2F /* UIKit.framework */; };
+		2268A88A14E80C470093CD2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268A88914E80C470093CD2F /* Foundation.framework */; };
+		2268A88C14E80C470093CD2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268A88B14E80C470093CD2F /* CoreGraphics.framework */; };
+		2268A89214E80C470093CD2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2268A89014E80C470093CD2F /* InfoPlist.strings */; };
+		2268A89414E80C470093CD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268A89314E80C470093CD2F /* main.m */; };
+		2268A89814E80C470093CD2F /* ETAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268A89714E80C470093CD2F /* ETAppDelegate.m */; };
+		2268A89B14E80C470093CD2F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2268A89914E80C470093CD2F /* MainStoryboard.storyboard */; };
+		2268A89E14E80C470093CD2F /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268A89D14E80C470093CD2F /* ETViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2268A88314E80C470093CD2F /* HelloCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2268A88714E80C470093CD2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2268A88914E80C470093CD2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2268A88B14E80C470093CD2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2268A88F14E80C470093CD2F /* HelloCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoa-Info.plist"; sourceTree = "<group>"; };
+		2268A89114E80C470093CD2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2268A89314E80C470093CD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2268A89514E80C470093CD2F /* HelloCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		2268A89614E80C470093CD2F /* ETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAppDelegate.h; sourceTree = "<group>"; };
+		2268A89714E80C470093CD2F /* ETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAppDelegate.m; sourceTree = "<group>"; };
+		2268A89A14E80C470093CD2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2268A89C14E80C470093CD2F /* ETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
+		2268A89D14E80C470093CD2F /* ETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2268A88014E80C470093CD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268A88814E80C470093CD2F /* UIKit.framework in Frameworks */,
+				2268A88A14E80C470093CD2F /* Foundation.framework in Frameworks */,
+				2268A88C14E80C470093CD2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2268A87814E80C470093CD2F = {
+			isa = PBXGroup;
+			children = (
+				2268A88D14E80C470093CD2F /* HelloCocoa */,
+				2268A88614E80C470093CD2F /* Frameworks */,
+				2268A88414E80C470093CD2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2268A88414E80C470093CD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2268A88314E80C470093CD2F /* HelloCocoa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2268A88614E80C470093CD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2268A88714E80C470093CD2F /* UIKit.framework */,
+				2268A88914E80C470093CD2F /* Foundation.framework */,
+				2268A88B14E80C470093CD2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2268A88D14E80C470093CD2F /* HelloCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				2268A89614E80C470093CD2F /* ETAppDelegate.h */,
+				2268A89714E80C470093CD2F /* ETAppDelegate.m */,
+				2268A89914E80C470093CD2F /* MainStoryboard.storyboard */,
+				2268A89C14E80C470093CD2F /* ETViewController.h */,
+				2268A89D14E80C470093CD2F /* ETViewController.m */,
+				2268A88E14E80C470093CD2F /* Supporting Files */,
+			);
+			path = HelloCocoa;
+			sourceTree = "<group>";
+		};
+		2268A88E14E80C470093CD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2268A88F14E80C470093CD2F /* HelloCocoa-Info.plist */,
+				2268A89014E80C470093CD2F /* InfoPlist.strings */,
+				2268A89314E80C470093CD2F /* main.m */,
+				2268A89514E80C470093CD2F /* HelloCocoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2268A88214E80C470093CD2F /* HelloCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2268A8A114E80C470093CD2F /* Build configuration list for PBXNativeTarget "HelloCocoa" */;
+			buildPhases = (
+				2268A87F14E80C470093CD2F /* Sources */,
+				2268A88014E80C470093CD2F /* Frameworks */,
+				2268A88114E80C470093CD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCocoa;
+			productName = HelloCocoa;
+			productReference = 2268A88314E80C470093CD2F /* HelloCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2268A87A14E80C470093CD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "tim.kri@gmail.com";
+			};
+			buildConfigurationList = 2268A87D14E80C470093CD2F /* Build configuration list for PBXProject "HelloCocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2268A87814E80C470093CD2F;
+			productRefGroup = 2268A88414E80C470093CD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2268A88214E80C470093CD2F /* HelloCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2268A88114E80C470093CD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268A89214E80C470093CD2F /* InfoPlist.strings in Resources */,
+				2268A89B14E80C470093CD2F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2268A87F14E80C470093CD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2268A89414E80C470093CD2F /* main.m in Sources */,
+				2268A89814E80C470093CD2F /* ETAppDelegate.m in Sources */,
+				2268A89E14E80C470093CD2F /* ETViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2268A89014E80C470093CD2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2268A89114E80C470093CD2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2268A89914E80C470093CD2F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2268A89A14E80C470093CD2F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2268A89F14E80C470093CD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2268A8A014E80C470093CD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2268A8A214E80C470093CD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoa/HelloCocoa-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoa/HelloCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2268A8A314E80C470093CD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoa/HelloCocoa-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoa/HelloCocoa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2268A87D14E80C470093CD2F /* Build configuration list for PBXProject "HelloCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2268A89F14E80C470093CD2F /* Debug */,
+				2268A8A014E80C470093CD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2268A8A114E80C470093CD2F /* Build configuration list for PBXNativeTarget "HelloCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2268A8A214E80C470093CD2F /* Debug */,
+				2268A8A314E80C470093CD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2268A87A14E80C470093CD2F /* Project object */;
+}
